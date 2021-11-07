@@ -23,7 +23,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           git-message: ${{ env.commit_message }}
-          tag-prefix: 'V'
+          tag-prefix: ''
           skip-on-empty: "false"
           output-file: "false"
           git-user-name: Release
